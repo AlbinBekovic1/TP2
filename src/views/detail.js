@@ -5,8 +5,9 @@ const detail = () => {
   return (
     <div>
       <h1>Détails des utilisateurs</h1>
-      <p>Contenu de la page</p>
-      <Link to="/utilisateurs/:user_id"> Test </Link>
+      <p>Ceci est un détail</p>
+      <Link to="/utilisateurs/editer/:user_id"> Gestion des utilisiateurs</Link>
+      <Link to="/">Liste des utilisateurs</Link>
     </div>
   );
 };
