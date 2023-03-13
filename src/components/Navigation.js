@@ -1,9 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import '../styles/navigation.scss';
 
 const navigation = () => {
   return (
-    <div>
+    <div class="header">
       <nav class="nav">
         <NavLink to="/utilisateurs/:user_id"> Detail </NavLink>
         <br />
